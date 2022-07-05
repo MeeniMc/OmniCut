@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:crimson_fence"}
+  ],
+  "result": "minecraft:stick",
+  "count": 3
+}
