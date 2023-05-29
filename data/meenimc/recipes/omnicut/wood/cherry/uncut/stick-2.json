@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:cherry_stairs"},
+    {"item": "minecraft:cherry_planks"},
+    {"item": "minecraft:cherry_button"}
+  ],
+  "result": "minecraft:stick",
+  "count": 2
+}
