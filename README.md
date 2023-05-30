@@ -58,12 +58,23 @@ recycling option.
 Due to rounding, it is not always possible to use the crafting table pricing.
 Here is a complete list of discounted items:
 1. Stairs: cost 1 plank (same discount as Vanilla stones.)
+2. Wood blocks: cost 1 log (crafting table cost is 4 logs for 3 woods.)
 2. Boats: cost 4 planks (crafting table cost is 5 planks.)
 3. Signs: cost 2 planks (crafting table cost is 6 planks, 1 stick for 3 signs,
   thus the total discount is 1 stick.)
-4. Wood blocks: cost 1 log (crafting table cost is 4 logs for 3 woods.)
+4. fence: cost 4/3 planks (crafting table cost is 4 planks, 2 sticks for 3 fences,
+  thus the total discount is 2 sticks.)
 
-Recycling cost are adjusted to the discounted prices, so that it is not possible
+In addition, bamboo producing only 2 planks per bamboo blocks causes the additional
+price adjustments discounts, making bamboo fence and rafts very price attractive compared
+to wood-based equivalent:
+1. Bamboo raft: cost 2 planks (crafting table cost is 5 planks.)
+2. Bamboo fence: cost 1 plank (crafting table cost is 4 planks 2 sticks for 3 fences,
+  thus total discount 1 plank, 2 sticks.)
+3. Bamboo fence gate: cost 2 planks (crafting table cost is 2 planks, 4 sticks,
+  thus total discount is 4 sticks.)
+
+All recycling cost are adjusted to the discounted prices, so that it is not possible
 to dupe planks.
 
 Notes
