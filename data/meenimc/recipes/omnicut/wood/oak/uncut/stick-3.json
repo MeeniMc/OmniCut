@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": [
-    {"item": "minecraft:oak_fence"}
-  ],
-  "result": "minecraft:stick",
-  "count": 3
-}
