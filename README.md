@@ -16,7 +16,8 @@ recipe. Logs can be converted to Woods (at a discount).
 ### Copper cutting
 
 The Stonecutter can cut Copper block variants into the corresponding Cut Copper
-Stairs and Slabs variants.
+Stairs and Slabs variants, as well as doors and trapdoors (including waxed, oxidized
+varieties).
 
 ### Deepslate conversion
 
