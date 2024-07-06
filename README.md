@@ -100,8 +100,9 @@ is to avoid enabling reforming sticks into planks.
 license
 -------
 
-[OmniCut Datapack for Minecraft][] by [MeeniMC][] is
-licensed under [CC BY-NC-SA 4.0![][1]![][2]![][3]![][4]][5]
+[OmniCut Datapack for Minecraft][] by [MeeniMC][] is licensed under [CC BY-NC-SA 4.0][5]
+
+![][1]![][2]![][3]![][4]
 
 Contact me if you have commercial plans.
 
