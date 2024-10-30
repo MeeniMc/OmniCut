@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:bamboo_slab"},
-    {"item": "minecraft:bamboo_mosaic_slab"}
+    "minecraft:bamboo_slab",
+    "minecraft:bamboo_mosaic_slab"
   ],
   "result": {
     "id": "minecraft:stick",

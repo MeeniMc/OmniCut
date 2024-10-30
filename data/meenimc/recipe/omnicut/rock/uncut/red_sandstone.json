@@ -1,11 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:smooth_red_sandstone"},
-    {"item": "minecraft:chiseled_red_sandstone"},
-    {"item": "minecraft:cut_red_sandstone"},
-    {"item": "minecraft:red_sandstone_stairs"},
-    {"item": "minecraft:red_sandstone_wall"}
+    "minecraft:smooth_red_sandstone",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:cut_red_sandstone",
+    "minecraft:red_sandstone_stairs",
+    "minecraft:red_sandstone_wall"
   ],
   "result": {
     "id": "minecraft:red_sandstone",

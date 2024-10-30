@@ -1,9 +1,9 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     {"item": "minecraft:cut_copper_stairs"},
-     {"item": "minecraft:chiseled_copper"},
-     {"item": "minecraft:copper_grate"}
+     "minecraft:cut_copper_stairs",
+     "minecraft:chiseled_copper",
+     "minecraft:copper_grate"
   ],
   "result": {
     "id": "minecraft:cut_copper",

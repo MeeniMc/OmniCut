@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:jungle_fence"}
+    "minecraft:jungle_fence"
   ],
   "result": {
     "id": "minecraft:stick",

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:mangrove_fence_gate"}
+    "minecraft:mangrove_fence_gate"
   ],
   "result": {
     "id": "minecraft:stick",

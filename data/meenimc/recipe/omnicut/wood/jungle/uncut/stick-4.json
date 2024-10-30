@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:jungle_pressure_plate"},
-    {"item": "minecraft:jungle_sign"},
-    {"item": "minecraft:jungle_door"},
-    {"item": "minecraft:jungle_trapdoor"}
+    "minecraft:jungle_pressure_plate",
+    "minecraft:jungle_sign",
+    "minecraft:jungle_door",
+    "minecraft:jungle_trapdoor"
   ],
   "result": {
     "id": "minecraft:stick",

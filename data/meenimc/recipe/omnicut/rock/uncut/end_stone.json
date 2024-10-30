@@ -1,9 +1,9 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:end_stone_bricks"},
-    {"item": "minecraft:end_stone_brick_stairs"},
-    {"item": "minecraft:end_stone_brick_wall"}
+    "minecraft:end_stone_bricks",
+    "minecraft:end_stone_brick_stairs",
+    "minecraft:end_stone_brick_wall"
   ],
   "result": {
     "id": "minecraft:end_stone",
