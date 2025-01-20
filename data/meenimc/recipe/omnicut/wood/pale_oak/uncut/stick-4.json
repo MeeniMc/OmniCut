@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:pale_oak_pressure_plate",
+    "minecraft:pale_oak_sign",
+    "minecraft:pale_oak_door",
+    "minecraft:pale_oak_trapdoor"
+  ],
+  "result": {
+    "id": "minecraft:stick",
+    "count": 4
+  }
+}
