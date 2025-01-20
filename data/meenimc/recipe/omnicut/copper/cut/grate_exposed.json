@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     {"item": "minecraft:exposed_cut_copper"}
+     "minecraft:exposed_cut_copper"
   ],
   "result": {
     "id": "minecraft:exposed_copper_grate",

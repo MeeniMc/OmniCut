@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:spruce_slab"}
+    "minecraft:spruce_slab"
   ],
   "result": {
     "id": "minecraft:stick",

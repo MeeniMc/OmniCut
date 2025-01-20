@@ -1,11 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:bamboo_planks"},
-    {"item": "minecraft:bamboo_mosaic"},
-    {"item": "minecraft:bamboo_stairs"},
-    {"item": "minecraft:bamboo_mosaic_stairs"},
-    {"item": "minecraft:bamboo_button"}
+    "minecraft:bamboo_planks",
+    "minecraft:bamboo_mosaic",
+    "minecraft:bamboo_stairs",
+    "minecraft:bamboo_mosaic_stairs",
+    "minecraft:bamboo_button"
   ],
   "result": {
     "id": "minecraft:bamboo_slab",

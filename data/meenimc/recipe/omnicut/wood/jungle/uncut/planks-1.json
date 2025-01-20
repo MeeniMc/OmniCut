@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:jungle_stairs"},
-    {"item": "minecraft:jungle_button"}
+    "minecraft:jungle_stairs",
+    "minecraft:jungle_button"
   ],
   "result": {
     "id": "minecraft:jungle_planks",

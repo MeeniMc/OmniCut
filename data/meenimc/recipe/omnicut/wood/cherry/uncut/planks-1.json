@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:cherry_stairs"},
-    {"item": "minecraft:cherry_button"}
+    "minecraft:cherry_stairs",
+    "minecraft:cherry_button"
   ],
   "result": {
     "id": "minecraft:cherry_planks",

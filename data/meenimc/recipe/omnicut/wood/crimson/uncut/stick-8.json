@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:crimson_fence_gate"}
+    "minecraft:crimson_fence_gate"
   ],
   "result": {
     "id": "minecraft:stick",
