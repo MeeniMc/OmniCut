@@ -1,10 +1,11 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    "minecraft:pale_oak_boat"
+    "minecraft:jungle_boat",
+    "minecraft:jungle_shelf"
   ],
   "result": {
-    "id": "minecraft:pale_oak_planks",
+    "id": "minecraft:jungle_planks",
     "count": 4
   }
 }
