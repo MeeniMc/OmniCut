@@ -1,11 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    "minecraft:acacia_boat",
-    "minecraft:acacia_shelf"
+    "minecraft:crimson_shelf"
   ],
   "result": {
-    "id": "minecraft:acacia_planks",
+    "id": "minecraft:crimson_planks",
     "count": 4
   }
 }

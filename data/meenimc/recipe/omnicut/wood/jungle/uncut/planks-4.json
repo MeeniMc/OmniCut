@@ -1,7 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    "minecraft:jungle_boat"
+    "minecraft:jungle_boat",
+    "minecraft:jungle_shelf"
   ],
   "result": {
     "id": "minecraft:jungle_planks",

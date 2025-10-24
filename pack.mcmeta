@@ -1,7 +1,9 @@
 {
    "pack":{
       "pack_format": 48,
-      "supported_formats": [48, 61],
+      "supported_formats": [48, 88],
+      "min_format": 48,
+      "max_format": [88,0],
       "description": "§6OmniCut§r: §oWoodcutting, Stonecutting, Recycling at Vanilla prices\n §2v1.61.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/omnicut-better-wood-stone-cutter"
    }
 }

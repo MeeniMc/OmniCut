@@ -1,7 +1,8 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    "minecraft:spruce_boat"
+    "minecraft:spruce_boat",
+    "minecraft:spruce_shelf"
   ],
   "result": {
     "id": "minecraft:spruce_planks",
