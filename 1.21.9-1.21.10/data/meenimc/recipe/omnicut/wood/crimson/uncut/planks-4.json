@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:crimson_shelf"
+  ],
+  "result": {
+    "id": "minecraft:crimson_planks",
+    "count": 4
+  }
+}

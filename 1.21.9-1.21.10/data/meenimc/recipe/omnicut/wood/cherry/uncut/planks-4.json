@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:cherry_boat",
+    "minecraft:cherry_shelf"
+  ],
+  "result": {
+    "id": "minecraft:cherry_planks",
+    "count": 4
+  }
+}

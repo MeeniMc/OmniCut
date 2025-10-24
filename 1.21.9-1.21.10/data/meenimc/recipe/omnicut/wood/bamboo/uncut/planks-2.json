@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:bamboo_pressure_plate",
+    "minecraft:bamboo_sign",
+    "minecraft:bamboo_door",
+    "minecraft:bamboo_trapdoor",
+    "minecraft:bamboo_raft",
+    "minecraft:bamboo_shelf"
+  ],
+  "result": {
+    "id": "minecraft:bamboo_planks",
+    "count": 2
+  }
+}
