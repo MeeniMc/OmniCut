@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_polished_deepslate_slab",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": [
+      {"item": "minecraft:polished_deepslate_slab"}
+    ]
+  },
+  "result": {
+    "id": "minecraft:polished_deepslate",
+    "count": 1
+  }
+}

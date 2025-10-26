@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:polished_tuff"},
+    {"item": "minecraft:chiseled_tuff"},
+    {"item": "minecraft:tuff_bricks"},
+    {"item": "minecraft:chiseled_tuff_bricks"},
+  
+    {"item": "minecraft:tuff_stairs"},
+    {"item": "minecraft:polished_tuff_stairs"},
+    {"item": "minecraft:tuff_brick_stairs"},
+
+    {"item": "minecraft:tuff_wall"},
+    {"item": "minecraft:polished_tuff_wall"},
+    {"item": "minecraft:tuff_brick_wall"}
+  ],
+  "result": {
+    "id": "minecraft:tuff",
+    "count": 1
+  }
+}
+  

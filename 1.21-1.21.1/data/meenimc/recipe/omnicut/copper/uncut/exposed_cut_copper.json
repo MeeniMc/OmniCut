@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+     {"item": "minecraft:exposed_cut_copper_stairs"},
+     {"item": "minecraft:exposed_chiseled_copper"},
+     {"item": "minecraft:exposed_copper_grate"}
+  ],
+  "result": {
+    "id": "minecraft:exposed_cut_copper",
+    "count": 1
+  }
+}
