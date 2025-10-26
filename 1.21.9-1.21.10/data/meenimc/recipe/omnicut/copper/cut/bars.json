@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+     "minecraft:copper_block"
+  ],
+  "result": { 
+    "id": "minecraft:copper_bars",
+    "count": 24
+  }
+}
