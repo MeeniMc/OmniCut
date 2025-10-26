@@ -19,9 +19,16 @@ The Stonecutter can cut Copper block variants into the corresponding Cut Copper
 Stairs and Slabs variants, as well as doors and trapdoors (including waxed, oxidized
 varieties).
 
+_New for 1.21.9/10: added recipes for copper chains, bars, rods, including waxed, 
+oxidized varieties._
+
 ### Deepslate conversion
 
 The Stonecutter can  convert Deepslate blocks to Cobbled Deepslate blocks.
+
+_New for 1.21.9/10: added recipes for direct production of deepslate blocks (e.g.,
+deepslate tiles, stairs, etc.) directly from deepslate, without an intermediate
+conversion to cobbled deepslate._
 
 Recycling
 ---------
