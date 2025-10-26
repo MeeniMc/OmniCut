@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:waxed_oxidized_copper"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:waxed_oxidized_copper_chain",
     "count": 8
   }

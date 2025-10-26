@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:waxed_exposed_copper"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:waxed_exposed_copper_trapdoor",
     "count": 4
   }

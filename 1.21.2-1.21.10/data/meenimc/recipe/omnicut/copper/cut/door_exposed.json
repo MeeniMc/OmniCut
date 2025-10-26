@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:exposed_copper"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:exposed_copper_door",
     "count": 5
   }

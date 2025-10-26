@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:oxidized_copper"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:oxidized_copper_door",
     "count": 5
   }

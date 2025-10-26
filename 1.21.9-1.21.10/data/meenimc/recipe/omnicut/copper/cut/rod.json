@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:copper_block"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:lightning_rod",
     "count": 3
   }

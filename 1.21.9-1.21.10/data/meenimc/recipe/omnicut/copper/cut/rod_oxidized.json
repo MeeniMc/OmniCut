@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:oxidized_copper"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:oxidized_lightning_rod",
     "count": 3
   }

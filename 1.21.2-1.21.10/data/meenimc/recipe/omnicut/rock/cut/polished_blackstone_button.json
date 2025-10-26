@@ -4,8 +4,8 @@
      "minecraft:blackstone",
      "minecraft:polished_blackstone"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:polished_blackstone_button",
     "count": 1
   }
-} 
+}

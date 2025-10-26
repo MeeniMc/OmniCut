@@ -19,7 +19,7 @@ The Stonecutter can cut Copper block variants into the corresponding Cut Copper
 Stairs and Slabs variants, as well as doors and trapdoors (including waxed, oxidized
 varieties).
 
-_New for 1.21.9/10: added recipes for copper chains, bars, rods, including waxed, 
+_New for 1.21.9/10: added recipes for copper chains, bars, rods, including waxed,
 oxidized varieties._
 
 ### Deepslate conversion

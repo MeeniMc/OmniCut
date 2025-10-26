@@ -3,7 +3,7 @@
   "ingredient": [
      "minecraft:copper_block"
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:copper_trapdoor",
     "count": 4
   }
