@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     {"item": "minecraft:polished_basalt"}
+    {"item": "minecraft:polished_basalt"}
   ],
   "result": "minecraft:basalt",
   "count": 1
