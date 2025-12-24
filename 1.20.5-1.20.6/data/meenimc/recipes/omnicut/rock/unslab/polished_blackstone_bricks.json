@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_polished_blackstone_brick_slab",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": [
+      {"item": "minecraft:polished_blackstone_brick_slab"}
+    ]
+  },
+  "result": {
+    "id": "minecraft:polished_blackstone_bricks",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_deepslate_brick_slab",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": [
+      {"item": "minecraft:deepslate_brick_slab"}
+    ]
+  },
+  "result": {
+    "id": "minecraft:deepslate_bricks",
+    "count": 1
+  }
+}

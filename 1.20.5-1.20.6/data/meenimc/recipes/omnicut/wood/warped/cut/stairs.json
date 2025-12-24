@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:warped_stem"},
+    {"item": "minecraft:stripped_warped_stem"},
+    {"item": "minecraft:warped_hyphae"},
+    {"item": "minecraft:stripped_warped_hyphae"}
+  ],
+  "result": {
+    "id": "minecraft:warped_stairs",
+    "count": 4
+  }
+}
