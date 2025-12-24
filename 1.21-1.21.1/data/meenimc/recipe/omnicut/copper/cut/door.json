@@ -1,9 +1,9 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     {"item": "minecraft:copper_block"}
+    {"item": "minecraft:copper_block"}
   ],
-  "result": { 
+  "result": {
     "id": "minecraft:copper_door",
     "count": 5
   }
