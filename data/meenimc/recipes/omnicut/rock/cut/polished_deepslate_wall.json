@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": [{"item": "minecraft:deepslate"}],
-  "result": {
-    "count": 1,
-    "id": "minecraft:polished_deepslate_wall"
-  }
+  "ingredient": [
+    {"item": "minecraft:deepslate"}
+  ],
+  "result": "minecraft:polished_deepslate_wall",
+  "count": 1
 }
