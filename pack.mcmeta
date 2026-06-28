@@ -37,6 +37,12 @@
             "min_format": 82,
             "max_format": 2147483647,
             "formats": [82, 2147483647]
+         },
+         {
+            "directory": "26.2-current",
+            "min_format": 107,
+            "max_format": 2147483647,
+            "formats": [107, 2147483647]
          }
       ]
    }

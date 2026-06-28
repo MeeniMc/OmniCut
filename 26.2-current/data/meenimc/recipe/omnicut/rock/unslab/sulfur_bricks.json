@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_sulfur_bricks_slab",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": [
+      "minecraft:sulfur_bricks_slab"
+    ]
+  },
+  "result": {
+    "id": "minecraft:sulfur_bricks",
+    "count": 1
+  }
+}

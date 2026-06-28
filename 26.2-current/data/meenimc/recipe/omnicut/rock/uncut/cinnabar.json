@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:polished_cinnabar",
+    "minecraft:chiseled_cinnabar",
+    "minecraft:cinnabar_bricks",
+
+    "minecraft:cinnabar_stairs",
+    "minecraft:polished_cinnabar_stairs",
+    "minecraft:cinnabar_brick_stairs",
+
+    "minecraft:cinnabar_wall",
+    "minecraft:polished_cinnabar_wall",
+    "minecraft:cinnabar_brick_wall"
+  ],
+  "result": {
+    "id": "minecraft:cinnabar",
+    "count": 1
+  }
+}
+  
