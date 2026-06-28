@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "uncraft_sulfur_bricks_slab",
+  "group": "uncraft_sulfur_brick_slab",
   "pattern": [
     "##"
   ],
   "key": {
     "#": [
-      "minecraft:sulfur_bricks_slab"
+      "minecraft:sulfur_brick_slab"
     ]
   },
   "result": {

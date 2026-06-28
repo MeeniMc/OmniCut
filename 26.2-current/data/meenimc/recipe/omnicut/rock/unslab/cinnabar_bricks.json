@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "uncraft_cinnabar_bricks_slab",
+  "group": "uncraft_cinnabar_brick_slab",
   "pattern": [
     "##"
   ],
   "key": {
     "#": [
-      "minecraft:cinnabar_bricks_slab"
+      "minecraft:cinnabar_brick_slab"
     ]
   },
   "result": {

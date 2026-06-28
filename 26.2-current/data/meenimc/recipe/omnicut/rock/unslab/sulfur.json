@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "uncraft_tuff_slab",
+  "group": "uncraft_sulfur_slab",
   "pattern": [
     "##"
   ],
   "key": {
     "#": [
-      "minecraft:tuff_slab"
+      "minecraft:sulfur_slab"
     ]
   },
   "result": {
-    "id": "minecraft:tuff",
+    "id": "minecraft:sulfur",
     "count": 1
   }
 }
