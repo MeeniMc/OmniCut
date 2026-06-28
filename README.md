@@ -26,9 +26,9 @@ oxidized varieties._
 
 The Stonecutter can  convert Deepslate blocks to Cobbled Deepslate blocks.
 
-_New for 1.21.9/10: added recipes for direct production of deepslate blocks (e.g.,
+_Between 1.21.2-1.21.11: added recipes for direct production of deepslate blocks (e.g.,
 deepslate tiles, stairs, etc.) directly from deepslate, without an intermediate
-conversion to cobbled deepslate._
+conversion to cobbled deepslate. This is now Vanilla in 26.x and later._
 
 Recycling
 ---------
