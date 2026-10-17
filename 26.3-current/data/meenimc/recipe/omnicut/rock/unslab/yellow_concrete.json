@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_yellow_concrete_slab",
+  "key": {
+    "#": [
+      "minecraft:yellow_concrete_slab"
+    ]
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:yellow_concrete"
+  }
+}

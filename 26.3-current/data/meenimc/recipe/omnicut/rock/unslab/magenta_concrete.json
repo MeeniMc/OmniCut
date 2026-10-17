@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_magenta_concrete_slab",
+  "key": {
+    "#": [
+      "minecraft:magenta_concrete_slab"
+    ]
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:magenta_concrete"
+  }
+}

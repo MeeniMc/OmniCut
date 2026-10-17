@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:poplar_fence_gate"
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:stick"
+  }
+}

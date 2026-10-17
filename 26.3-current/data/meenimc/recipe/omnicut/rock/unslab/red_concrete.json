@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_red_concrete_slab",
+  "key": {
+    "#": [
+      "minecraft:red_concrete_slab"
+    ]
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_concrete"
+  }
+}

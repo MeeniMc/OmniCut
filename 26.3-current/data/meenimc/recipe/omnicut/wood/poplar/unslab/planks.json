@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "uncraft_poplar_planks",
+  "key": {
+    "#": [
+      "minecraft:poplar_slab"
+    ]
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:poplar_planks"
+  }
+}

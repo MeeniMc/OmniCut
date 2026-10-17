@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:poplar_log",
+    "minecraft:stripped_poplar_log",
+    "minecraft:poplar_wood",
+    "minecraft:stripped_poplar_wood"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:poplar_planks"
+  }
+}
