@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:crimson_stem"
   },
-  "result": "minecraft:stripped_crimson_stem"
+  "result": {
+    "count": 1,
+    "id": "minecraft:stripped_crimson_stem"
+  }
 }

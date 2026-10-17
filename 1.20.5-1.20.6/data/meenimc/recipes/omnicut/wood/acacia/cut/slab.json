@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
   "ingredient": [
     {
       "item": "minecraft:acacia_log"
@@ -15,5 +14,8 @@
       "item": "minecraft:stripped_acacia_wood"
     }
   ],
-  "result": "minecraft:acacia_slab"
+  "result": {
+    "count": 8,
+    "id": "minecraft:acacia_slab"
+  }
 }

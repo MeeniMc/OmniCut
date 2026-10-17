@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 4,
   "ingredient": [
     {
       "item": "minecraft:mangrove_log"
@@ -15,5 +14,8 @@
       "item": "minecraft:stripped_mangrove_wood"
     }
   ],
-  "result": "minecraft:mangrove_button"
+  "result": {
+    "count": 4,
+    "id": "minecraft:mangrove_button"
+  }
 }

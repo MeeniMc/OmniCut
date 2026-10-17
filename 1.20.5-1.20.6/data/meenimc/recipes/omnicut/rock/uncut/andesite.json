@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:polished_andesite"
@@ -15,5 +14,8 @@
       "item": "minecraft:andesite_wall"
     }
   ],
-  "result": "minecraft:andesite"
+  "result": {
+    "count": 1,
+    "id": "minecraft:andesite"
+  }
 }

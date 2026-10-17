@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 4,
   "ingredient": [
     {
       "item": "minecraft:mangrove_pressure_plate"
@@ -15,5 +14,8 @@
       "item": "minecraft:mangrove_trapdoor"
     }
   ],
-  "result": "minecraft:mangrove_slab"
+  "result": {
+    "count": 4,
+    "id": "minecraft:mangrove_slab"
+  }
 }

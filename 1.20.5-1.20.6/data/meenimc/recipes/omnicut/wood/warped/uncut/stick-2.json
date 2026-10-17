@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": [
     {
       "item": "minecraft:warped_stairs"
@@ -12,5 +11,8 @@
       "item": "minecraft:warped_button"
     }
   ],
-  "result": "minecraft:stick"
+  "result": {
+    "count": 2,
+    "id": "minecraft:stick"
+  }
 }

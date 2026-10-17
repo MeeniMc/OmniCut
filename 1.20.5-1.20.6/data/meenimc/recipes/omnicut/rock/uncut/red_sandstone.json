@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:smooth_red_sandstone"
@@ -18,5 +17,8 @@
       "item": "minecraft:red_sandstone_wall"
     }
   ],
-  "result": "minecraft:red_sandstone"
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_sandstone"
+  }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:red_nether_brick_stairs"
@@ -9,5 +8,8 @@
       "item": "minecraft:red_nether_brick_wall"
     }
   ],
-  "result": "minecraft:red_nether_bricks"
+  "result": {
+    "count": 1,
+    "id": "minecraft:red_nether_bricks"
+  }
 }

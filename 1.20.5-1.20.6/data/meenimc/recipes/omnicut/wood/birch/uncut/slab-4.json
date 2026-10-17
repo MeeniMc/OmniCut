@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 4,
   "ingredient": [
     {
       "item": "minecraft:birch_pressure_plate"
@@ -15,5 +14,8 @@
       "item": "minecraft:birch_trapdoor"
     }
   ],
-  "result": "minecraft:birch_slab"
+  "result": {
+    "count": 4,
+    "id": "minecraft:birch_slab"
+  }
 }

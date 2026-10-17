@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
   "ingredient": [
     {
       "item": "minecraft:mangrove_log"
@@ -15,5 +14,8 @@
       "item": "minecraft:stripped_mangrove_wood"
     }
   ],
-  "result": "minecraft:stick"
+  "result": {
+    "count": 8,
+    "id": "minecraft:stick"
+  }
 }

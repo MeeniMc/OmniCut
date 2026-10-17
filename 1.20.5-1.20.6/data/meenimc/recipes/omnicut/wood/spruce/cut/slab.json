@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
   "ingredient": [
     {
       "item": "minecraft:spruce_log"
@@ -15,5 +14,8 @@
       "item": "minecraft:stripped_spruce_wood"
     }
   ],
-  "result": "minecraft:spruce_slab"
+  "result": {
+    "count": 8,
+    "id": "minecraft:spruce_slab"
+  }
 }

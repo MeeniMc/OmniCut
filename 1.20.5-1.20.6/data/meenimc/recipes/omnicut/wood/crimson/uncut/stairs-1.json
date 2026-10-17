@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:crimson_planks"
@@ -9,5 +8,8 @@
       "item": "minecraft:crimson_button"
     }
   ],
-  "result": "minecraft:crimson_stairs"
+  "result": {
+    "count": 1,
+    "id": "minecraft:crimson_stairs"
+  }
 }

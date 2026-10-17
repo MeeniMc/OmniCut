@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": [
     {
       "item": "minecraft:acacia_stairs"
@@ -12,5 +11,8 @@
       "item": "minecraft:acacia_button"
     }
   ],
-  "result": "minecraft:acacia_slab"
+  "result": {
+    "count": 2,
+    "id": "minecraft:acacia_slab"
+  }
 }

@@ -1,10 +1,12 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 8,
   "ingredient": [
     {
       "item": "minecraft:crimson_fence_gate"
     }
   ],
-  "result": "minecraft:stick"
+  "result": {
+    "count": 8,
+    "id": "minecraft:stick"
+  }
 }

@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": [
     {
       "item": "minecraft:smooth_stone"
@@ -30,5 +29,8 @@
       "item": "minecraft:stone_button"
     }
   ],
-  "result": "minecraft:stone"
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone"
+  }
 }

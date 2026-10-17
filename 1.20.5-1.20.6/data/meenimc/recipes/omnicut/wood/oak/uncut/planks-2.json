@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 2,
   "ingredient": [
     {
       "item": "minecraft:oak_pressure_plate"
@@ -15,5 +14,8 @@
       "item": "minecraft:oak_trapdoor"
     }
   ],
-  "result": "minecraft:oak_planks"
+  "result": {
+    "count": 2,
+    "id": "minecraft:oak_planks"
+  }
 }
