@@ -1,10 +1,10 @@
 {
    "pack": {
       "pack_format": 15,
-      "supported_formats": [15, 107],
+      "supported_formats": [15, 121],
       "min_format": 15,
-      "max_format": 107,
-      "description": "§6OmniCut§r: §oWoodcutting, Stonecutting, Recycling at Vanilla prices\n §2v1.107.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/omnicut-better-wood-stone-cutter"
+      "max_format": 121,
+      "description": "§6OmniCut§r: §oWoodcutting, Stonecutting, Recycling at Vanilla prices\n §2v1.121.0; by MeeniMc; CC BY-NC-SA 4.0\n §9https://modrinth.com/datapack/omnicut-better-wood-stone-cutter"
    },
    "overlays": {
       "entries": [
