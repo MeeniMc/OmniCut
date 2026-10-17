@@ -1,13 +1,25 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": [
-    {"item": "minecraft:bamboo_planks"},
-    {"item": "minecraft:bamboo_mosaic"},
-    {"item": "minecraft:bamboo_stairs"},
-    {"item": "minecraft:bamboo_mosaic_stairs"},
-    {"item": "minecraft:bamboo_button"},
-    {"item": "minecraft:bamboo_fence"}
+    {
+      "item": "minecraft:bamboo_planks"
+    },
+    {
+      "item": "minecraft:bamboo_mosaic"
+    },
+    {
+      "item": "minecraft:bamboo_stairs"
+    },
+    {
+      "item": "minecraft:bamboo_mosaic_stairs"
+    },
+    {
+      "item": "minecraft:bamboo_button"
+    },
+    {
+      "item": "minecraft:bamboo_fence"
+    }
   ],
-  "result": "minecraft:stick",
-  "count": 2
+  "result": "minecraft:stick"
 }

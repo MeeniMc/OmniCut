@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_cut_copper_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:cut_copper_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:cut_copper",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cut_copper"
   }
 }

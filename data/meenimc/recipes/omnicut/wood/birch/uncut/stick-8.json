@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": [
-    {"item": "minecraft:birch_fence_gate"}
+    {
+      "item": "minecraft:birch_fence_gate"
+    }
   ],
-  "result": "minecraft:stick",
-  "count": 8
+  "result": "minecraft:stick"
 }

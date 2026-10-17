@@ -7,7 +7,7 @@
     "minecraft:oak_trapdoor"
   ],
   "result": {
-    "id": "minecraft:oak_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:oak_slab"
   }
 }

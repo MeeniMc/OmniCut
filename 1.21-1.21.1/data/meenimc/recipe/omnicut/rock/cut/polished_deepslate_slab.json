@@ -1,7 +1,9 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:deepslate"}
+    {
+      "item": "minecraft:deepslate"
+    }
   ],
   "result": {
     "count": 2,

@@ -8,7 +8,7 @@
     "minecraft:bamboo_raft"
   ],
   "result": {
-    "id": "minecraft:bamboo_planks",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:bamboo_planks"
   }
 }

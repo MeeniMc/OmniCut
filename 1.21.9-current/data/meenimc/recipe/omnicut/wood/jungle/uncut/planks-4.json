@@ -5,7 +5,7 @@
     "minecraft:jungle_shelf"
   ],
   "result": {
-    "id": "minecraft:jungle_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:jungle_planks"
   }
 }

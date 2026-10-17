@@ -7,7 +7,7 @@
     "minecraft:stripped_cherry_wood"
   ],
   "result": {
-    "id": "minecraft:cherry_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:cherry_stairs"
   }
 }

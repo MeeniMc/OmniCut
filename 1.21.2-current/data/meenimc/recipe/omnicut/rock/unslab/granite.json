@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_granite_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:granite_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:granite",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:granite"
   }
 }

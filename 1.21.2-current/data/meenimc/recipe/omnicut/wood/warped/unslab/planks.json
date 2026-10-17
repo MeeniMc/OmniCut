@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_warped_planks",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:warped_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:warped_planks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:warped_planks"
   }
 }

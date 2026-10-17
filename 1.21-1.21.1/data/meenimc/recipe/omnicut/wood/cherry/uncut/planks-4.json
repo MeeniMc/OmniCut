@@ -1,10 +1,12 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:cherry_boat"}
+    {
+      "item": "minecraft:cherry_boat"
+    }
   ],
   "result": {
-    "id": "minecraft:cherry_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:cherry_planks"
   }
 }

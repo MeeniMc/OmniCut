@@ -5,7 +5,7 @@
     "minecraft:dark_oak_shelf"
   ],
   "result": {
-    "id": "minecraft:dark_oak_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:dark_oak_planks"
   }
 }

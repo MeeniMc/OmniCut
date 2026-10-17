@@ -5,7 +5,7 @@
     "minecraft:mossy_stone_brick_wall"
   ],
   "result": {
-    "id": "minecraft:mossy_stone_bricks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:mossy_stone_bricks"
   }
 }

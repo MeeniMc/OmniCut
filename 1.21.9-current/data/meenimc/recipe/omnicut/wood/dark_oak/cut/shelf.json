@@ -1,13 +1,13 @@
 {
-    "type": "minecraft:stonecutting",
-    "ingredient": [
-        "minecraft:dark_oak_log",
-        "minecraft:stripped_dark_oak_log",
-        "minecraft:dark_oak_wood",
-        "minecraft:stripped_dark_oak_wood"
-    ],
-    "result": {
-        "id": "minecraft:dark_oak_shelf",
-        "count": 1
-    }
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:dark_oak_log",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stripped_dark_oak_wood"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dark_oak_shelf"
+  }
 }

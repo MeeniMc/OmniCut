@@ -6,7 +6,7 @@
     "minecraft:pale_oak_button"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:stick"
   }
 }

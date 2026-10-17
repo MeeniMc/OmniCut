@@ -4,7 +4,7 @@
     "minecraft:pale_oak_slab"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:stick"
   }
 }

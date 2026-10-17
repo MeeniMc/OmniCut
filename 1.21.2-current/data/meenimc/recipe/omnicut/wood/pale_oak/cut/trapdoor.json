@@ -7,7 +7,7 @@
     "minecraft:stripped_pale_oak_wood"
   ],
   "result": {
-    "id": "minecraft:pale_oak_trapdoor",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:pale_oak_trapdoor"
   }
 }

@@ -1,13 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": [
-    {"item": "minecraft:jungle_log"},
-    {"item": "minecraft:stripped_jungle_log"},
-    {"item": "minecraft:jungle_wood"},
-    {"item": "minecraft:stripped_jungle_wood"}
+    {
+      "item": "minecraft:jungle_log"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    {
+      "item": "minecraft:jungle_wood"
+    },
+    {
+      "item": "minecraft:stripped_jungle_wood"
+    }
   ],
-  "result": {
-    "id": "minecraft:jungle_stairs",
-    "count": 4
-  }
+  "result": "minecraft:jungle_stairs"
 }

@@ -6,7 +6,7 @@
     "minecraft:spruce_button"
   ],
   "result": {
-    "id": "minecraft:spruce_slab",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:spruce_slab"
   }
 }

@@ -5,7 +5,7 @@
     "minecraft:pale_oak_button"
   ],
   "result": {
-    "id": "minecraft:pale_oak_planks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:pale_oak_planks"
   }
 }

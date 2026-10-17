@@ -5,18 +5,15 @@
     "minecraft:chiseled_tuff",
     "minecraft:tuff_bricks",
     "minecraft:chiseled_tuff_bricks",
-
     "minecraft:tuff_stairs",
     "minecraft:polished_tuff_stairs",
     "minecraft:tuff_brick_stairs",
-
     "minecraft:tuff_wall",
     "minecraft:polished_tuff_wall",
     "minecraft:tuff_brick_wall"
   ],
   "result": {
-    "id": "minecraft:tuff",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:tuff"
   }
 }
-  

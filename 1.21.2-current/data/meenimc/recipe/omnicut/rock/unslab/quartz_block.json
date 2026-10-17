@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_quartz_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:quartz_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:quartz_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:quartz_block"
   }
 }

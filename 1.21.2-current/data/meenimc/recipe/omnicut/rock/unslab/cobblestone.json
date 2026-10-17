@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_cobblestone_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:cobblestone_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:cobblestone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cobblestone"
   }
 }

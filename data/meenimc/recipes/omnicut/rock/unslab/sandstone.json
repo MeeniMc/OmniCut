@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_sandstone_slab",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:sandstone_slab"
+      }
+    ]
+  },
   "pattern": [
     "##"
   ],
-  "key": {
-    "#": [
-      {"item": "minecraft:sandstone_slab"}
-    ]
-  },
   "result": {
-    "item": "minecraft:sandstone",
-    "count": 1
+    "count": 1,
+    "item": "minecraft:sandstone"
   }
 }

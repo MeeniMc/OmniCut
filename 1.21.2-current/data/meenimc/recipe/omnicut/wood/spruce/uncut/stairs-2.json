@@ -7,7 +7,7 @@
     "minecraft:spruce_trapdoor"
   ],
   "result": {
-    "id": "minecraft:spruce_stairs",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:spruce_stairs"
   }
 }

@@ -5,7 +5,7 @@
     "minecraft:acacia_button"
   ],
   "result": {
-    "id": "minecraft:acacia_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:acacia_stairs"
   }
 }

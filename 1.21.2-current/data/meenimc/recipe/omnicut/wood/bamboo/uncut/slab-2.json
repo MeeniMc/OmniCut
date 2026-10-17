@@ -8,7 +8,7 @@
     "minecraft:bamboo_button"
   ],
   "result": {
-    "id": "minecraft:bamboo_slab",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:bamboo_slab"
   }
 }

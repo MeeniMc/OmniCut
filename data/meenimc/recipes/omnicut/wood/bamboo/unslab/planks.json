@@ -1,16 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_bamboo_planks",
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:bamboo_slab"
+      }
+    ]
+  },
   "pattern": [
     "##"
   ],
-  "key": {
-    "#": [
-      {"item": "minecraft:bamboo_slab"}
-    ]
-  },
   "result": {
-    "item": "minecraft:bamboo_planks",
-    "count": 1
+    "count": 1,
+    "item": "minecraft:bamboo_planks"
   }
 }

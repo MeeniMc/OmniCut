@@ -8,19 +8,17 @@
     "minecraft:cracked_deepslate_bricks",
     "minecraft:deepslate_tiles",
     "minecraft:cracked_deepslate_tiles",
-
     "minecraft:cobbled_deepslate_stairs",
     "minecraft:polished_deepslate_stairs",
     "minecraft:deepslate_brick_stairs",
     "minecraft:deepslate_tile_stairs",
-
     "minecraft:cobbled_deepslate_wall",
     "minecraft:polished_deepslate_wall",
     "minecraft:deepslate_brick_wall",
     "minecraft:deepslate_tile_wall"
   ],
   "result": {
-    "id": "minecraft:cobbled_deepslate",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cobbled_deepslate"
   }
 }

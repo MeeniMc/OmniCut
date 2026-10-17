@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": [
-    {"item": "minecraft:stone"}
+    {
+      "item": "minecraft:stone"
+    }
   ],
-  "result": "minecraft:stone_button",
-  "count": 1
+  "result": "minecraft:stone_button"
 }

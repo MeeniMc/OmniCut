@@ -7,7 +7,7 @@
     "minecraft:stripped_acacia_wood"
   ],
   "result": {
-    "id": "minecraft:acacia_fence",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:acacia_fence"
   }
 }

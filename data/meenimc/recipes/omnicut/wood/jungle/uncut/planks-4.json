@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": [
-    {"item": "minecraft:jungle_boat"}
+    {
+      "item": "minecraft:jungle_boat"
+    }
   ],
-  "result": "minecraft:jungle_planks",
-  "count": 4
+  "result": "minecraft:jungle_planks"
 }

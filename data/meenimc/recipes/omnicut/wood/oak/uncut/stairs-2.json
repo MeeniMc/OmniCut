@@ -1,11 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": [
-    {"item": "minecraft:oak_pressure_plate"},
-    {"item": "minecraft:oak_sign"},
-    {"item": "minecraft:oak_door"},
-    {"item": "minecraft:oak_trapdoor"}
+    {
+      "item": "minecraft:oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:oak_sign"
+    },
+    {
+      "item": "minecraft:oak_door"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    }
   ],
-  "result": "minecraft:oak_stairs",
-  "count": 2
+  "result": "minecraft:oak_stairs"
 }

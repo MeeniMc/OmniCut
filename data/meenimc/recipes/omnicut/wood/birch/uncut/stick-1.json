@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": [
-    {"item": "minecraft:birch_slab"}
+    {
+      "item": "minecraft:birch_slab"
+    }
   ],
-  "result": "minecraft:stick",
-  "count": 1
+  "result": "minecraft:stick"
 }

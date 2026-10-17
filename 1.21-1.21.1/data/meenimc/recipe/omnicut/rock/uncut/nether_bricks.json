@@ -1,14 +1,21 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:chiseled_nether_bricks"},
-    {"item": "minecraft:cracked_nether_bricks"},
-
-    {"item": "minecraft:nether_brick_stairs"},
-    {"item": "minecraft:nether_brick_wall"}
+    {
+      "item": "minecraft:chiseled_nether_bricks"
+    },
+    {
+      "item": "minecraft:cracked_nether_bricks"
+    },
+    {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    {
+      "item": "minecraft:nether_brick_wall"
+    }
   ],
   "result": {
-    "id": "minecraft:nether_bricks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:nether_bricks"
   }
 }

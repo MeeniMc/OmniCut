@@ -4,7 +4,7 @@
     "minecraft:purpur_stairs"
   ],
   "result": {
-    "id": "minecraft:purpur_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:purpur_block"
   }
 }

@@ -2,14 +2,12 @@
   "type": "minecraft:stonecutting",
   "ingredient": [
     "minecraft:polished_diorite",
-
     "minecraft:diorite_stairs",
     "minecraft:polished_diorite_stairs",
-
     "minecraft:diorite_wall"
   ],
   "result": {
-    "id": "minecraft:diorite",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:diorite"
   }
 }

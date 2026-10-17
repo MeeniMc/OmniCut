@@ -4,7 +4,7 @@
     "minecraft:crimson_shelf"
   ],
   "result": {
-    "id": "minecraft:crimson_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:crimson_planks"
   }
 }

@@ -9,7 +9,7 @@
     "minecraft:bamboo_fence_gate"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:stick"
   }
 }

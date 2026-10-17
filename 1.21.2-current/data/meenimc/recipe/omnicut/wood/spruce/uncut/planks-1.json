@@ -5,7 +5,7 @@
     "minecraft:spruce_button"
   ],
   "result": {
-    "id": "minecraft:spruce_planks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:spruce_planks"
   }
 }

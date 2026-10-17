@@ -4,7 +4,7 @@
     "minecraft:acacia_slab"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:stick"
   }
 }

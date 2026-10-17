@@ -8,7 +8,7 @@
     "minecraft:quartz_stairs"
   ],
   "result": {
-    "id": "minecraft:quartz_block",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:quartz_block"
   }
 }

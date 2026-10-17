@@ -4,7 +4,7 @@
     "item": "minecraft:cherry_log"
   },
   "result": {
-    "id": "minecraft:cherry_wood",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cherry_wood"
   }
 }

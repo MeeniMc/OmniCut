@@ -2,12 +2,11 @@
   "type": "minecraft:stonecutting",
   "ingredient": [
     "minecraft:mossy_cobblestone",
-
     "minecraft:cobblestone_stairs",
     "minecraft:cobblestone_wall"
   ],
   "result": {
-    "id": "minecraft:cobblestone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:cobblestone"
   }
 }

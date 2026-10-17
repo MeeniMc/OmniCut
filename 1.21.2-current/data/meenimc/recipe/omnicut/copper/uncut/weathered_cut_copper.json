@@ -1,12 +1,12 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     "minecraft:weathered_cut_copper_stairs",
-     "minecraft:weathered_chiseled_copper",
-     "minecraft:weathered_copper_grate"
+    "minecraft:weathered_cut_copper_stairs",
+    "minecraft:weathered_chiseled_copper",
+    "minecraft:weathered_copper_grate"
   ],
   "result": {
-    "id": "minecraft:weathered_cut_copper",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:weathered_cut_copper"
   }
 }

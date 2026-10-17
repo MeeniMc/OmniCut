@@ -6,7 +6,7 @@
     "minecraft:end_stone_brick_wall"
   ],
   "result": {
-    "id": "minecraft:end_stone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:end_stone"
   }
 }

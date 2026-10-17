@@ -1,9 +1,13 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": [
-    {"item": "minecraft:bamboo_block"},
-    {"item": "minecraft:stripped_bamboo_block"}
+    {
+      "item": "minecraft:bamboo_block"
+    },
+    {
+      "item": "minecraft:stripped_bamboo_block"
+    }
   ],
-  "result": "minecraft:bamboo_trapdoor",
-  "count": 1
+  "result": "minecraft:bamboo_trapdoor"
 }

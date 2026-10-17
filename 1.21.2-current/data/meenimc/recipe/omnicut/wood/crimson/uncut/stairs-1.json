@@ -5,7 +5,7 @@
     "minecraft:crimson_button"
   ],
   "result": {
-    "id": "minecraft:crimson_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:crimson_stairs"
   }
 }

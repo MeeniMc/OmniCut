@@ -1,21 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     "minecraft:smooth_stone",
-     "minecraft:stone_bricks",
-     "minecraft:mossy_stone_bricks",
-     "minecraft:cracked_stone_bricks",
-     "minecraft:chiseled_stone_bricks",
-
-     "minecraft:stone_stairs",
-     "minecraft:stone_brick_stairs",
-
-     "minecraft:stone_brick_wall",
-
-     "minecraft:stone_button"
+    "minecraft:smooth_stone",
+    "minecraft:stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:stone_stairs",
+    "minecraft:stone_brick_stairs",
+    "minecraft:stone_brick_wall",
+    "minecraft:stone_button"
   ],
   "result": {
-    "id": "minecraft:stone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:stone"
   }
 }

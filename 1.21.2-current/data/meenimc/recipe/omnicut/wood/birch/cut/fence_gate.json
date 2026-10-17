@@ -7,7 +7,7 @@
     "minecraft:stripped_birch_wood"
   ],
   "result": {
-    "id": "minecraft:birch_fence_gate",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:birch_fence_gate"
   }
 }

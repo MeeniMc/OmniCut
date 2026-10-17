@@ -1,14 +1,22 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": [
-    {"item": "minecraft:smooth_sandstone"},
-    {"item": "minecraft:chiseled_sandstone"},
-    {"item": "minecraft:cut_sandstone"},
-    {"item": "minecraft:sandstone_stairs"},
-    {"item": "minecraft:sandstone_wall"}
+    {
+      "item": "minecraft:smooth_sandstone"
+    },
+    {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    {
+      "item": "minecraft:cut_sandstone"
+    },
+    {
+      "item": "minecraft:sandstone_stairs"
+    },
+    {
+      "item": "minecraft:sandstone_wall"
+    }
   ],
-  "result": {
-    "id": "minecraft:sandstone",
-    "count": 1
-  }
+  "result": "minecraft:sandstone"
 }

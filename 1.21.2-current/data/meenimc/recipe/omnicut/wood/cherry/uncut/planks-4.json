@@ -4,7 +4,7 @@
     "minecraft:cherry_boat"
   ],
   "result": {
-    "id": "minecraft:cherry_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:cherry_planks"
   }
 }

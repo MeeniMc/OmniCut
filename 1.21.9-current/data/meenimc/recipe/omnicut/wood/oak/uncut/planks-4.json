@@ -5,7 +5,7 @@
     "minecraft:oak_shelf"
   ],
   "result": {
-    "id": "minecraft:oak_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:oak_planks"
   }
 }

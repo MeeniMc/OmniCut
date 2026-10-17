@@ -1,10 +1,12 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:mangrove_slab"}
+    {
+      "item": "minecraft:mangrove_slab"
+    }
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:stick"
   }
 }

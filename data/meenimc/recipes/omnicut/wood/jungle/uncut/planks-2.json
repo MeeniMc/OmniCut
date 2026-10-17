@@ -1,11 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": [
-    {"item": "minecraft:jungle_pressure_plate"},
-    {"item": "minecraft:jungle_sign"},
-    {"item": "minecraft:jungle_door"},
-    {"item": "minecraft:jungle_trapdoor"}
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    },
+    {
+      "item": "minecraft:jungle_sign"
+    },
+    {
+      "item": "minecraft:jungle_door"
+    },
+    {
+      "item": "minecraft:jungle_trapdoor"
+    }
   ],
-  "result": "minecraft:jungle_planks",
-  "count": 2
+  "result": "minecraft:jungle_planks"
 }

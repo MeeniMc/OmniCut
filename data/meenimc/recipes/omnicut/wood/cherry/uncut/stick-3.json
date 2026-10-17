@@ -1,8 +1,10 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 3,
   "ingredient": [
-    {"item": "minecraft:cherry_fence"}
+    {
+      "item": "minecraft:cherry_fence"
+    }
   ],
-  "result": "minecraft:stick",
-  "count": 3
+  "result": "minecraft:stick"
 }

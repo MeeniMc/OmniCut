@@ -5,7 +5,7 @@
     "minecraft:stripped_bamboo_block"
   ],
   "result": {
-    "id": "minecraft:bamboo_pressure_plate",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bamboo_pressure_plate"
   }
 }

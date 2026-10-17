@@ -1,13 +1,21 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:crimson_pressure_plate"},
-    {"item": "minecraft:crimson_sign"},
-    {"item": "minecraft:crimson_door"},
-    {"item": "minecraft:crimson_trapdoor"}
+    {
+      "item": "minecraft:crimson_pressure_plate"
+    },
+    {
+      "item": "minecraft:crimson_sign"
+    },
+    {
+      "item": "minecraft:crimson_door"
+    },
+    {
+      "item": "minecraft:crimson_trapdoor"
+    }
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:stick"
   }
 }

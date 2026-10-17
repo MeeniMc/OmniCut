@@ -1,10 +1,10 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-     "minecraft:stone_pressure_plate"
+    "minecraft:stone_pressure_plate"
   ],
   "result": {
-    "id": "minecraft:stone",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:stone"
   }
 }

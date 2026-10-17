@@ -7,7 +7,7 @@
     "minecraft:stripped_crimson_hyphae"
   ],
   "result": {
-    "id": "minecraft:crimson_fence_gate",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:crimson_fence_gate"
   }
 }

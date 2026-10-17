@@ -1,13 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 8,
   "ingredient": [
-    {"item": "minecraft:cherry_log"},
-    {"item": "minecraft:stripped_cherry_log"},
-    {"item": "minecraft:cherry_wood"},
-    {"item": "minecraft:stripped_cherry_wood"}
+    {
+      "item": "minecraft:cherry_log"
+    },
+    {
+      "item": "minecraft:stripped_cherry_log"
+    },
+    {
+      "item": "minecraft:cherry_wood"
+    },
+    {
+      "item": "minecraft:stripped_cherry_wood"
+    }
   ],
-  "result": {
-    "id": "minecraft:cherry_slab",
-    "count": 8
-  }
+  "result": "minecraft:cherry_slab"
 }

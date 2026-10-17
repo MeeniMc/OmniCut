@@ -9,7 +9,7 @@
     "minecraft:bamboo_shelf"
   ],
   "result": {
-    "id": "minecraft:bamboo_planks",
-    "count": 2
+    "count": 2,
+    "id": "minecraft:bamboo_planks"
   }
 }

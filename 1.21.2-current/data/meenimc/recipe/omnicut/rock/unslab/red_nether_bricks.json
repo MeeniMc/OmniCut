@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_red_nether_brick_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:red_nether_brick_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:red_nether_bricks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:red_nether_bricks"
   }
 }

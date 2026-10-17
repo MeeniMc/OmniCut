@@ -4,7 +4,7 @@
     "minecraft:crimson_fence_gate"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 8
+    "count": 8,
+    "id": "minecraft:stick"
   }
 }

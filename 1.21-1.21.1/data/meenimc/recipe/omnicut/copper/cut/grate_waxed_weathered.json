@@ -1,10 +1,12 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:waxed_weathered_cut_copper"}
+    {
+      "item": "minecraft:waxed_weathered_cut_copper"
+    }
   ],
   "result": {
-    "id": "minecraft:waxed_weathered_copper_grate",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:waxed_weathered_copper_grate"
   }
 }

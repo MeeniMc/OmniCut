@@ -7,7 +7,7 @@
     "minecraft:jungle_trapdoor"
   ],
   "result": {
-    "id": "minecraft:jungle_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:jungle_slab"
   }
 }

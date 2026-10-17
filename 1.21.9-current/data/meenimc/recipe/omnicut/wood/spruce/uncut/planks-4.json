@@ -5,7 +5,7 @@
     "minecraft:spruce_shelf"
   ],
   "result": {
-    "id": "minecraft:spruce_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:spruce_planks"
   }
 }

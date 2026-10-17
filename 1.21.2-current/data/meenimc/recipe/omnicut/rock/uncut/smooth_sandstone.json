@@ -4,7 +4,7 @@
     "minecraft:smooth_sandstone_stairs"
   ],
   "result": {
-    "id": "minecraft:smooth_sandstone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:smooth_sandstone"
   }
 }

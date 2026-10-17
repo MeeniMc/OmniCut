@@ -5,7 +5,7 @@
     "minecraft:oak_button"
   ],
   "result": {
-    "id": "minecraft:oak_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:oak_stairs"
   }
 }

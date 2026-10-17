@@ -7,7 +7,7 @@
     "minecraft:stripped_dark_oak_wood"
   ],
   "result": {
-    "id": "minecraft:dark_oak_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:dark_oak_planks"
   }
 }

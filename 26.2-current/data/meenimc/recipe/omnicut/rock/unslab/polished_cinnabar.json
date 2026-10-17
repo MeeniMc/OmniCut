@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_polished_cinnabar_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:polished_cinnabar_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:polished_cinnabar",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:polished_cinnabar"
   }
 }

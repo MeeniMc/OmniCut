@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "uncraft_blackstone_slab",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": [
       "minecraft:blackstone_slab"
     ]
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
-    "id": "minecraft:blackstone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:blackstone"
   }
 }

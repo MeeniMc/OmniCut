@@ -1,10 +1,12 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:jungle_fence"}
+    {
+      "item": "minecraft:jungle_fence"
+    }
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 3
+    "count": 3,
+    "id": "minecraft:stick"
   }
 }

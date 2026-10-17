@@ -5,19 +5,16 @@
     "minecraft:chiseled_polished_blackstone",
     "minecraft:polished_blackstone_bricks",
     "minecraft:cracked_polished_blackstone_bricks",
-
     "minecraft:blackstone_stairs",
     "minecraft:polished_blackstone_stairs",
     "minecraft:polished_blackstone_brick_stairs",
-
     "minecraft:blackstone_wall",
     "minecraft:polished_blackstone_wall",
     "minecraft:polished_blackstone_brick_wall",
-
     "minecraft:polished_blackstone_button"
   ],
   "result": {
-    "id": "minecraft:blackstone",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:blackstone"
   }
 }

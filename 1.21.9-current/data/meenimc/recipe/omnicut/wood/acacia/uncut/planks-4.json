@@ -5,7 +5,7 @@
     "minecraft:acacia_shelf"
   ],
   "result": {
-    "id": "minecraft:acacia_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:acacia_planks"
   }
 }

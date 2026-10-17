@@ -1,11 +1,15 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:warped_planks"},
-    {"item": "minecraft:warped_button"}
+    {
+      "item": "minecraft:warped_planks"
+    },
+    {
+      "item": "minecraft:warped_button"
+    }
   ],
   "result": {
-    "id": "minecraft:warped_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:warped_stairs"
   }
 }

@@ -5,7 +5,7 @@
     "minecraft:prismarine_wall"
   ],
   "result": {
-    "id": "minecraft:prismarine",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:prismarine"
   }
 }

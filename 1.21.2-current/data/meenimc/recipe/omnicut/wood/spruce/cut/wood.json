@@ -2,7 +2,7 @@
   "type": "minecraft:stonecutting",
   "ingredient": "minecraft:spruce_log",
   "result": {
-    "id": "minecraft:spruce_wood",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:spruce_wood"
   }
 }

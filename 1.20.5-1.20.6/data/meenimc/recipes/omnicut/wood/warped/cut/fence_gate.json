@@ -1,13 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": [
-    {"item": "minecraft:warped_stem"},
-    {"item": "minecraft:stripped_warped_stem"},
-    {"item": "minecraft:warped_hyphae"},
-    {"item": "minecraft:stripped_warped_hyphae"}
+    {
+      "item": "minecraft:warped_stem"
+    },
+    {
+      "item": "minecraft:stripped_warped_stem"
+    },
+    {
+      "item": "minecraft:warped_hyphae"
+    },
+    {
+      "item": "minecraft:stripped_warped_hyphae"
+    }
   ],
-  "result": {
-    "id": "minecraft:warped_fence_gate",
-    "count": 1
-  }
+  "result": "minecraft:warped_fence_gate"
 }

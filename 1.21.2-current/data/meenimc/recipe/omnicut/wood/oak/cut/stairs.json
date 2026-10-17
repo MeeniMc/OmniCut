@@ -7,7 +7,7 @@
     "minecraft:stripped_oak_wood"
   ],
   "result": {
-    "id": "minecraft:oak_stairs",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:oak_stairs"
   }
 }

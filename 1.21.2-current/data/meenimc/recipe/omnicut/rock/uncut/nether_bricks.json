@@ -3,12 +3,11 @@
   "ingredient": [
     "minecraft:chiseled_nether_bricks",
     "minecraft:cracked_nether_bricks",
-
     "minecraft:nether_brick_stairs",
     "minecraft:nether_brick_wall"
   ],
   "result": {
-    "id": "minecraft:nether_bricks",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:nether_bricks"
   }
 }

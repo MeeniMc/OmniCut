@@ -7,7 +7,7 @@
     "minecraft:stripped_cherry_wood"
   ],
   "result": {
-    "id": "minecraft:stick",
-    "count": 8
+    "count": 8,
+    "id": "minecraft:stick"
   }
 }

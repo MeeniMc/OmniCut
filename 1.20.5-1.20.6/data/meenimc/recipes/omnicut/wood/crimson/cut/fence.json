@@ -1,13 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 3,
   "ingredient": [
-    {"item": "minecraft:crimson_stem"},
-    {"item": "minecraft:stripped_crimson_stem"},
-    {"item": "minecraft:crimson_hyphae"},
-    {"item": "minecraft:stripped_crimson_hyphae"}
+    {
+      "item": "minecraft:crimson_stem"
+    },
+    {
+      "item": "minecraft:stripped_crimson_stem"
+    },
+    {
+      "item": "minecraft:crimson_hyphae"
+    },
+    {
+      "item": "minecraft:stripped_crimson_hyphae"
+    }
   ],
-  "result": {
-    "id": "minecraft:crimson_fence",
-    "count": 3
-  }
+  "result": "minecraft:crimson_fence"
 }

@@ -4,7 +4,7 @@
     "minecraft:pale_oak_boat"
   ],
   "result": {
-    "id": "minecraft:pale_oak_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:pale_oak_planks"
   }
 }

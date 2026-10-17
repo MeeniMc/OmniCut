@@ -1,11 +1,15 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": [
-    {"item": "minecraft:prismarine_stairs"},
-    {"item": "minecraft:prismarine_wall"}
+    {
+      "item": "minecraft:prismarine_stairs"
+    },
+    {
+      "item": "minecraft:prismarine_wall"
+    }
   ],
   "result": {
-    "id": "minecraft:prismarine",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:prismarine"
   }
 }

@@ -4,7 +4,7 @@
     "minecraft:warped_shelf"
   ],
   "result": {
-    "id": "minecraft:warped_planks",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:warped_planks"
   }
 }

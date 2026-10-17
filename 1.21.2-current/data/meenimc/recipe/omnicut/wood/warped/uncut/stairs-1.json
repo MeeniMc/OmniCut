@@ -5,7 +5,7 @@
     "minecraft:warped_button"
   ],
   "result": {
-    "id": "minecraft:warped_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:warped_stairs"
   }
 }

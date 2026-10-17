@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "minecraft:spruce_wood"
   },
-  "result": "minecraft:stripped_spruce_wood",
-  "count": 1
+  "result": "minecraft:stripped_spruce_wood"
 }

@@ -4,7 +4,7 @@
     "item": "minecraft:warped_stem"
   },
   "result": {
-    "id": "minecraft:warped_hyphae",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:warped_hyphae"
   }
 }

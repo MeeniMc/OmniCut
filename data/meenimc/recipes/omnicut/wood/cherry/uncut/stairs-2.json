@@ -1,11 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": [
-    {"item": "minecraft:cherry_pressure_plate"},
-    {"item": "minecraft:cherry_sign"},
-    {"item": "minecraft:cherry_door"},
-    {"item": "minecraft:cherry_trapdoor"}
+    {
+      "item": "minecraft:cherry_pressure_plate"
+    },
+    {
+      "item": "minecraft:cherry_sign"
+    },
+    {
+      "item": "minecraft:cherry_door"
+    },
+    {
+      "item": "minecraft:cherry_trapdoor"
+    }
   ],
-  "result": "minecraft:cherry_stairs",
-  "count": 2
+  "result": "minecraft:cherry_stairs"
 }

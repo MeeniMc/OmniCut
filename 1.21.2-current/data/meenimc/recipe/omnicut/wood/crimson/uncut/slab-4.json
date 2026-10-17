@@ -7,7 +7,7 @@
     "minecraft:crimson_trapdoor"
   ],
   "result": {
-    "id": "minecraft:crimson_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:crimson_slab"
   }
 }

@@ -7,7 +7,7 @@
     "minecraft:bamboo_button"
   ],
   "result": {
-    "id": "minecraft:bamboo_stairs",
-    "count": 1
+    "count": 1,
+    "id": "minecraft:bamboo_stairs"
   }
 }

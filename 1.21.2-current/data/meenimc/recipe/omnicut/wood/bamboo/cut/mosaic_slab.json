@@ -5,7 +5,7 @@
     "minecraft:stripped_bamboo_block"
   ],
   "result": {
-    "id": "minecraft:bamboo_mosaic_slab",
-    "count": 4
+    "count": 4,
+    "id": "minecraft:bamboo_mosaic_slab"
   }
 }

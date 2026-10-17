@@ -1,13 +1,19 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 4,
   "ingredient": [
-    {"item": "minecraft:spruce_pressure_plate"},
-    {"item": "minecraft:spruce_sign"},
-    {"item": "minecraft:spruce_door"},
-    {"item": "minecraft:spruce_trapdoor"}
+    {
+      "item": "minecraft:spruce_pressure_plate"
+    },
+    {
+      "item": "minecraft:spruce_sign"
+    },
+    {
+      "item": "minecraft:spruce_door"
+    },
+    {
+      "item": "minecraft:spruce_trapdoor"
+    }
   ],
-  "result": {
-    "id": "minecraft:stick",
-    "count": 4
-  }
+  "result": "minecraft:stick"
 }
