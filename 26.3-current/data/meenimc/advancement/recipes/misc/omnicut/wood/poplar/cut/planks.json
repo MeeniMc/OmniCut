@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_poplar_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_poplar_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_poplar_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_poplar_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_poplar_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_poplar_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/poplar/cut/planks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_poplar_log",
+      "has_poplar_wood",
+      "has_stripped_poplar_log",
+      "has_stripped_poplar_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/poplar/cut/planks"
+    ]
+  }
+}

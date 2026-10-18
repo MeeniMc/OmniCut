@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/warped/uncut/planks-4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_shelf": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_shelf"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_shelf"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/warped/uncut/planks-4"
+    ]
+  }
+}

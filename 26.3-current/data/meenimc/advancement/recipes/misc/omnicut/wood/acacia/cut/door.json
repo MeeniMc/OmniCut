@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_acacia_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_acacia_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_acacia_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_acacia_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_acacia_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_acacia_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/acacia/cut/door"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_acacia_log",
+      "has_acacia_wood",
+      "has_stripped_acacia_log",
+      "has_stripped_acacia_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/acacia/cut/door"
+    ]
+  }
+}

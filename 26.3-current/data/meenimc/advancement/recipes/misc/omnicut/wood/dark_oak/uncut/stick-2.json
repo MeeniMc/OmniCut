@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_oak_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dark_oak_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dark_oak_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/dark_oak/uncut/stick-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_oak_button",
+      "has_dark_oak_planks",
+      "has_dark_oak_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/dark_oak/uncut/stick-2"
+    ]
+  }
+}

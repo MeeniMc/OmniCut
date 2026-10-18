@@ -1,0 +1,76 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bamboo_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bamboo_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bamboo_raft": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_raft"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bamboo_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bamboo_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/bamboo/uncut/slab-4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bamboo_door",
+      "has_bamboo_pressure_plate",
+      "has_bamboo_raft",
+      "has_bamboo_sign",
+      "has_bamboo_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/bamboo/uncut/slab-4"
+    ]
+  }
+}

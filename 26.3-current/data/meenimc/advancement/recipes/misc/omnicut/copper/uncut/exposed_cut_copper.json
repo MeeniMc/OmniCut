@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_exposed_chiseled_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_chiseled_copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_exposed_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_exposed_cut_copper_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:exposed_cut_copper_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/copper/uncut/exposed_cut_copper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_exposed_chiseled_copper",
+      "has_exposed_copper_grate",
+      "has_exposed_cut_copper_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/copper/uncut/exposed_cut_copper"
+    ]
+  }
+}

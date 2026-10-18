@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_poplar_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_poplar_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_poplar_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_poplar_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poplar_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/poplar/uncut/planks-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_poplar_door",
+      "has_poplar_pressure_plate",
+      "has_poplar_sign",
+      "has_poplar_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/poplar/uncut/planks-2"
+    ]
+  }
+}

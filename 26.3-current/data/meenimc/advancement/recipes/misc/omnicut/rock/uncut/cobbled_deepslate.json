@@ -1,0 +1,186 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cobbled_deepslate_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cobbled_deepslate_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobbled_deepslate_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cracked_deepslate_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_deepslate_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cracked_deepslate_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_deepslate_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_brick_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_brick_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_brick_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_brick_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_tile_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tile_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_tile_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tile_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_deepslate_tiles": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:deepslate_tiles"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_deepslate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_deepslate_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_deepslate_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_deepslate_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/rock/uncut/cobbled_deepslate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_deepslate",
+      "has_cobbled_deepslate_stairs",
+      "has_cobbled_deepslate_wall",
+      "has_cracked_deepslate_bricks",
+      "has_cracked_deepslate_tiles",
+      "has_deepslate",
+      "has_deepslate_brick_stairs",
+      "has_deepslate_brick_wall",
+      "has_deepslate_bricks",
+      "has_deepslate_tile_stairs",
+      "has_deepslate_tile_wall",
+      "has_deepslate_tiles",
+      "has_polished_deepslate",
+      "has_polished_deepslate_stairs",
+      "has_polished_deepslate_wall",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/rock/uncut/cobbled_deepslate"
+    ]
+  }
+}

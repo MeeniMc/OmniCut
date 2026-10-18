@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_birch_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_birch_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_birch_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/birch/uncut/slab-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_birch_button",
+      "has_birch_planks",
+      "has_birch_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/birch/uncut/slab-2"
+    ]
+  }
+}

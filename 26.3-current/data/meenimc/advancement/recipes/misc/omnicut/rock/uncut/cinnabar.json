@@ -1,0 +1,120 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_cinnabar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_cinnabar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinnabar_brick_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cinnabar_brick_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinnabar_brick_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cinnabar_brick_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinnabar_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cinnabar_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinnabar_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cinnabar_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cinnabar_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cinnabar_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_cinnabar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_cinnabar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_cinnabar_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_cinnabar_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_cinnabar_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_cinnabar_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/rock/uncut/cinnabar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_cinnabar",
+      "has_cinnabar_brick_stairs",
+      "has_cinnabar_brick_wall",
+      "has_cinnabar_bricks",
+      "has_cinnabar_stairs",
+      "has_cinnabar_wall",
+      "has_polished_cinnabar",
+      "has_polished_cinnabar_stairs",
+      "has_polished_cinnabar_wall",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/rock/uncut/cinnabar"
+    ]
+  }
+}

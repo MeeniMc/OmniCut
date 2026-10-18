@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "meenimc:omnicut/wood/mangrove/uncut/stairs-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mangrove_door",
+      "has_mangrove_pressure_plate",
+      "has_mangrove_sign",
+      "has_mangrove_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/mangrove/uncut/stairs-2"
+    ]
+  }
+}
