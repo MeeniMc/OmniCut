@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_jungle_log": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_jungle_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stripped_jungle_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_jungle_wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/jungle/cut/button"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_log",
+      "has_jungle_wood",
+      "has_stripped_jungle_log",
+      "has_stripped_jungle_wood",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/jungle/cut/button"
+    ]
+  }
+}

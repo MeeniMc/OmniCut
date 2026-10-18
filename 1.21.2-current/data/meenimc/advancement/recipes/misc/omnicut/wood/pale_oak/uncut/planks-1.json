@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_oak_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_button"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pale_oak_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/pale_oak/uncut/planks-1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pale_oak_button",
+      "has_pale_oak_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/pale_oak/uncut/planks-1"
+    ]
+  }
+}

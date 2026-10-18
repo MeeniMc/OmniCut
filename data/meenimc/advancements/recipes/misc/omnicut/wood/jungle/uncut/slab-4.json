@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_door"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_pressure_plate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_sign"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jungle_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_trapdoor"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/jungle/uncut/slab-4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_door",
+      "has_jungle_pressure_plate",
+      "has_jungle_sign",
+      "has_jungle_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/jungle/uncut/slab-4"
+    ]
+  },
+  "sends_telemetry_event": false
+}

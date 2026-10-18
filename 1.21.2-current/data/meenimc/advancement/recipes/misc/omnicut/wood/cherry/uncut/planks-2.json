@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cherry_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cherry_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cherry_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cherry_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/cherry/uncut/planks-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cherry_door",
+      "has_cherry_pressure_plate",
+      "has_cherry_sign",
+      "has_cherry_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/cherry/uncut/planks-2"
+    ]
+  }
+}

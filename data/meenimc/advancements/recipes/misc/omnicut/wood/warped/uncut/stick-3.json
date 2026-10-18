@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/warped/uncut/stick-3"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_fence": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fence"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_fence"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/warped/uncut/stick-3"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,131 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chiseled_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_tuff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_chiseled_tuff_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_tuff_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_tuff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_tuff_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_polished_tuff_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_tuff_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/rock/uncut/tuff"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tuff_brick_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_brick_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tuff_brick_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_brick_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tuff_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tuff_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tuff_wall": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tuff_wall"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_chiseled_tuff",
+      "has_chiseled_tuff_bricks",
+      "has_polished_tuff",
+      "has_polished_tuff_stairs",
+      "has_polished_tuff_wall",
+      "has_the_recipe",
+      "has_tuff_brick_stairs",
+      "has_tuff_brick_wall",
+      "has_tuff_bricks",
+      "has_tuff_stairs",
+      "has_tuff_wall"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/rock/uncut/tuff"
+    ]
+  }
+}

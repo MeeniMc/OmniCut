@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mangrove_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mangrove_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:mangrove_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/mangrove/uncut/planks-1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mangrove_button",
+      "has_mangrove_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/mangrove/uncut/planks-1"
+    ]
+  },
+  "sends_telemetry_event": false
+}

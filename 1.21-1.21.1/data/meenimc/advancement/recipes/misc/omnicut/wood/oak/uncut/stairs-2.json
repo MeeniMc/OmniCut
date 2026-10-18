@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oak_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oak_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oak_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oak_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/oak/uncut/stairs-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_oak_door",
+      "has_oak_pressure_plate",
+      "has_oak_sign",
+      "has_oak_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/oak/uncut/stairs-2"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pale_oak_door": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_door"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pale_oak_pressure_plate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_pressure_plate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pale_oak_sign": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_sign"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pale_oak_trapdoor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_trapdoor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/pale_oak/uncut/planks-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pale_oak_door",
+      "has_pale_oak_pressure_plate",
+      "has_pale_oak_sign",
+      "has_pale_oak_trapdoor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/pale_oak/uncut/planks-2"
+    ]
+  }
+}

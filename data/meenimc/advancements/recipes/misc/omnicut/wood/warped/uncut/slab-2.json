@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/wood/warped/uncut/slab-2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_button": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_button"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_planks"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_warped_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_warped_button",
+      "has_warped_planks",
+      "has_warped_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/wood/warped/uncut/slab-2"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_oxidized_chiseled_copper": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_chiseled_copper"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oxidized_copper_grate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_copper_grate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oxidized_cut_copper_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxidized_cut_copper_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/copper/uncut/oxidized_cut_copper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_oxidized_chiseled_copper",
+      "has_oxidized_copper_grate",
+      "has_oxidized_cut_copper_stairs",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/copper/uncut/oxidized_cut_copper"
+    ]
+  }
+}

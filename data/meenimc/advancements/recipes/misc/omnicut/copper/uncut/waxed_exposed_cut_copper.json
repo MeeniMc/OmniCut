@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "meenimc:omnicut/copper/uncut/waxed_exposed_cut_copper"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_waxed_exposed_cut_copper_stairs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:waxed_exposed_cut_copper_stairs"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_waxed_exposed_cut_copper_stairs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "meenimc:omnicut/copper/uncut/waxed_exposed_cut_copper"
+    ]
+  },
+  "sends_telemetry_event": false
+}
