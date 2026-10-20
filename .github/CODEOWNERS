@@ -1,0 +1,3 @@
+# Require the repo owner to review changes to CI and its ownership rules.
+/.github/CODEOWNERS @MeeniMc
+/.github/workflows/ @MeeniMc
