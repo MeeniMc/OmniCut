@@ -47,12 +47,32 @@ jobs:
           TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.event.release.tag_name }}
         run: |
           set -euo pipefail
+          TAG=$(printf '%s' "$TAG" | tr -d '[:space:]')
           [ -n "$TAG" ] || { echo "::error::release tag is empty"; exit 1; }
           mkdir -p dist
-          release=$(curl -sS --fail-with-body \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/releases/tags/$TAG")
+          api="https://api.github.com/repos/$GITHUB_REPOSITORY/releases/tags"
+          fetch_release() {
+            curl -sS -w '\n%{http_code}' \
+              -H "Authorization: Bearer $GH_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              "$api/$1"
+          }
+          response=$(fetch_release "$TAG")
+          code=${response##*$'\n'}
+          body=${response%$'\n'*}
+          # Accept both 1.121.0 and v1.121.0; release tags carry the v prefix.
+          if [ "$code" = "404" ] && [ "${TAG#v}" = "$TAG" ]; then
+            TAG="v$TAG"
+            response=$(fetch_release "$TAG")
+            code=${response##*$'\n'}
+            body=${response%$'\n'*}
+          fi
+          if [ "$code" != "200" ]; then
+            echo "::error::could not fetch release '$TAG' (HTTP $code)"
+            printf '%s\n' "$body"
+            exit 1
+          fi
+          release="$body"
           if [ "$(jq -r '.draft' <<<"$release")" != "false" ]; then
             echo "::error::release $TAG is still a draft; publish it first"
             exit 1
@@ -64,7 +84,10 @@ jobs:
           fi
           asset=$(jq -r '.assets[] | select(.name | endswith(".zip")) | .name' <<<"$release")
           url=$(jq -r '.assets[] | select(.name | endswith(".zip")) | .browser_download_url' <<<"$release")
-          curl --fail-with-body --silent --show-error --location "$url" --output "dist/$asset"
+          if ! curl --fail-with-body --silent --show-error --location "$url" --output "dist/$asset"; then
+            echo "::error::failed to download asset '$asset' from the release"
+            exit 1
+          fi
           jq -r '.body // ""' <<<"$release" > changelog.md
           name=$(jq -r '.name // empty' <<<"$release")
           [ -n "$name" ] || name="$TAG"
