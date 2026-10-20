@@ -14,6 +14,9 @@ on:
 
 jobs:
   publish:
+    # Environment secret + reviewer gate: create the `modrinth` environment
+    # with MODRINTH_TOKEN and a v* deployment tag rule.
+    environment: modrinth
     runs-on: ubuntu-slim
     permissions:
       contents: read
