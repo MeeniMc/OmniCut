@@ -4,9 +4,10 @@
 # so there is also a manual fallback: Actions -> Publish Modrinth -> Run workflow
 # and enter the tag. The release body is the Modrinth changelog, so edit it first.
 #
-# Requires a repository secret MODRINTH_TOKEN with "Create versions" on the
-# project. The workflow must exist on the default branch before GitHub will run
-# it for a release event.
+# Requires a repository secret MODRINTH_TOKEN with "Create versions" and
+# "Write versions" on the project (the action unfeatures older versions after
+# creating the new one). The workflow must exist on the default branch before
+# GitHub will run it for a release event.
 name: Publish Modrinth
 
 on:
