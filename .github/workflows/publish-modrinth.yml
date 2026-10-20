@@ -1,0 +1,57 @@
+# When a draft release is published (manual review), publish the same zip to
+# Modrinth. The draft release is created by release.yml from the tag; this
+# workflow only runs on the manual publish event. The release body becomes the
+# Modrinth version changelog, so edit the body before pressing Publish.
+#
+# Requires a repository secret MODRINTH_TOKEN with "Create versions" on the
+# project. The workflow must exist on the default branch before GitHub will run
+# it for a release event.
+name: Publish Modrinth
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+    steps:
+      # Fail loudly instead of letting mc-publish warn and exit 0 when the
+      # secret is missing.
+      - name: Check Modrinth token
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: |
+          set -euo pipefail
+          [ -n "$MODRINTH_TOKEN" ] || { echo "::error::MODRINTH_TOKEN secret is not set"; exit 1; }
+
+      # The release asset is public, so no GitHub token is needed here.
+      - name: Download release zip
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          assets=$(jq -c '[.release.assets[] | select(.name | endswith(".zip"))]' "$GITHUB_EVENT_PATH")
+          count=$(jq 'length' <<<"$assets")
+          if [ "$count" -ne 1 ]; then
+            echo "::error::expected exactly one .zip release asset, found $count"
+            exit 1
+          fi
+          name=$(jq -r '.[0].name' <<<"$assets")
+          url=$(jq -r '.[0].browser_download_url' <<<"$assets")
+          curl --fail-with-body --silent --show-error --location "$url" --output "dist/$name"
+
+      - name: Publish to Modrinth
+        uses: Kira-NT/mc-publish@v3
+        with:
+          modrinth-id: MpEvPjRi
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: dist/*.zip
+          loaders: datapack
+          # Bump the upper bound when a new Minecraft line is supported; the
+          # `releases` filter drops snapshots and pre-releases from the range.
+          game-versions: |
+            >=1.19.4 <26.4
+          game-version-filter: releases
+          version-type: ${{ github.event.release.prerelease && 'beta' || 'release' }}
